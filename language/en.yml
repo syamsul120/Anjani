@@ -89,6 +89,10 @@ invalid-backup-file: It seems that this file isn't a backup from me. I can't res
 no-backup-file: Reply to the backup file!
 restore-progress: Restoring data...
 #endregion
+#region federations
+federations-button: Federations
+federations-help: "Upcoming 😊"
+#endregion
 #region language
 language-button: Language
 language-help: |
@@ -278,6 +282,7 @@ view-welcome: |
 #region common-error
 error-its-myself: "I can't do anything for myself 😒"
 error-chat-private: "**Error:** `Chat type private`\nThis command for groups only..."
+error-chat-not-private: "This command only for PM's not group"
 error-no-rights: "You don't have rights to use this command!"
 err-not-participant: "This user is not a member of this chat!"
 err-invalid-option: Invalid option!

@@ -107,4 +107,4 @@ def rand_array(array: list):
 
 def rand_key():
     """generates a random key"""
-    return str(uuid4())[:8]
+    return str(uuid4())
